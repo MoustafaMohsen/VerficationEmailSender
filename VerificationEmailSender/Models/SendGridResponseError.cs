@@ -1,4 +1,4 @@
-﻿namespace VerficationEmailSender.SendGrid
+﻿namespace VerificationEmailSender.SendGrid
 {
     /// <summary>
     /// An error response for a <see cref="SendGridResponse"/>

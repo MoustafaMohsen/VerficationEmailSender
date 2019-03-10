@@ -1,7 +1,7 @@
 ﻿using SendGrid;
 using System.Collections.Generic;
 
-namespace VerficationEmailSender.SendGrid
+namespace VerificationEmailSender.SendGrid
 {
     public class SendGrindResponse
     {

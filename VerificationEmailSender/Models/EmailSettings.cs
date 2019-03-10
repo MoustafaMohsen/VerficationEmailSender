@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace VerficationEmailSender.Models
+namespace VerificationEmailSender.Models
 {
     public class EmailSettings
     {

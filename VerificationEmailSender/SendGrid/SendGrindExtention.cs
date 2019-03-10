@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace VerficationEmailSender.SendGrid
+namespace VerificationEmailSender.SendGrid
 {
     public static class SendGrindExtention
     {

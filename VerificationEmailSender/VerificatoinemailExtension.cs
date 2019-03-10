@@ -1,11 +1,11 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using VerficationEmailSender.SendGrid;
+using VerificationEmailSender.SendGrid;
 
-namespace VerficationEmailSender
+namespace VerificationEmailSender
 {
     public static class VerificatoinemailExtension
     {
-        public static IServiceCollection AddVerficationEmailSender(this IServiceCollection services)
+        public static IServiceCollection AddVerificationEmailSender(this IServiceCollection services)
         {
             services.AddMySendGrindEmail();
             services.AddScoped<IVerificationEmail, VerificationEmail>();

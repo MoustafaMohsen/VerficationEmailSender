@@ -1,4 +1,4 @@
-﻿namespace VerficationEmailSender.SendGrid
+﻿namespace VerificationEmailSender.SendGrid
 {
     public class SendEmailDetails
     {

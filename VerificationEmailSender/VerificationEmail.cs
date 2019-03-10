@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
-using VerficationEmailSender.Models;
-using VerficationEmailSender.SendGrid;
+using VerificationEmailSender.Models;
+using VerificationEmailSender.SendGrid;
 
-namespace VerficationEmailSender
+namespace VerificationEmailSender
 {
     public interface IVerificationEmail
     {
@@ -18,8 +18,8 @@ namespace VerficationEmailSender
         public async Task<SendEmailResponse> SendUserVerificationEmailAsync( EmailSettings emailSettings)
         {
             // Getting email variables
+            //var templateText = VerificationTemplateString.TemplateString;
             var templateText = emailSettings.Template;
-
             // Replace template placeholders
             var EmailContent = templateText.Replace("--Title--", emailSettings.Title)
                                         .Replace("--Content1--", emailSettings.Content1)
